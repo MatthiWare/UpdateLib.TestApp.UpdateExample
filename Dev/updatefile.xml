@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<UpdateFile ApplicationName="TestApp" VersionString="v2.0.0.0">
+  <Folders>
+    <DirectoryEntry Name="%appdir%">
+      <Directories>
+        <Directory Name="data">
+          <Directories />
+          <Files>
+            <File Name="testfile1.txt" Hash="F36F4D8A304643F5F677610B1CB8490AFAC6CF59D19DBB6229BE984E4B39C073" />
+            <File Name="testfile2.txt" Hash="545EC5DDE93369228919289095346A7D7FB2E8813EF3B04260643E5AAAFEC7C3" />
+            <File Name="testfile3.txt" Hash="96F15B45E9CEAB9DF17DF2DAC1FC936E338C593ECFFF478E5763ABE8C731CA95" />
+          </Files>
+        </Directory>
+      </Directories>
+      <Files>
+        <File Name="TestApp.exe" Hash="07431471EBF1C49968ACC31D900A7D0EC9D5946EFB27DE4ED66933A22F6548AC" />
+      </Files>
+    </DirectoryEntry>
+  </Folders>
+</UpdateFile>
