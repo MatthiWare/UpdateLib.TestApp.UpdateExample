@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<UpdateFile ApplicationName="TestApp" VersionString="v2.0.0.0">
+<UpdateFile ApplicationName="UpdateLib Demo" VersionString="0.3.0.0">
   <Folders>
     <DirectoryEntry Name="%appdir%">
       <Directories>
@@ -13,7 +13,7 @@
         </Directory>
       </Directories>
       <Files>
-        <File Name="TestApp.exe" Hash="07431471EBF1C49968ACC31D900A7D0EC9D5946EFB27DE4ED66933A22F6548AC" />
+        <File Name="TestApp.exe" Hash="2778240F63A1C3D65F54DCE91A2B6FCABF813F62FE79EF440612E2D45FD94066" />
       </Files>
     </DirectoryEntry>
   </Folders>
