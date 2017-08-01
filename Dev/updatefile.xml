@@ -1,20 +1,38 @@
 <?xml version="1.0"?>
-<UpdateFile ApplicationName="UpdateLib Demo" VersionString="0.3.0.0">
+<UpdateFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ApplicationName="TestApp" VersionString="0.4.0">
   <Folders>
-    <DirectoryEntry Name="%appdir%">
+    <Directory Name="%appdir%">
       <Directories>
         <Directory Name="data">
           <Directories />
-          <Files>
-            <File Name="testfile1.txt" Hash="F36F4D8A304643F5F677610B1CB8490AFAC6CF59D19DBB6229BE984E4B39C073" />
-            <File Name="testfile2.txt" Hash="545EC5DDE93369228919289095346A7D7FB2E8813EF3B04260643E5AAAFEC7C3" />
-            <File Name="testfile3.txt" Hash="96F15B45E9CEAB9DF17DF2DAC1FC936E338C593ECFFF478E5763ABE8C731CA95" />
-          </Files>
+          <FileEntry Name="testfile1.txt" Hash="F36F4D8A304643F5F677610B1CB8490AFAC6CF59D19DBB6229BE984E4B39C073" />
+          <FileEntry Name="testfile2.txt" Hash="545EC5DDE93369228919289095346A7D7FB2E8813EF3B04260643E5AAAFEC7C3" />
+          <FileEntry Name="testfile3.txt" Hash="96F15B45E9CEAB9DF17DF2DAC1FC936E338C593ECFFF478E5763ABE8C731CA95" />
         </Directory>
       </Directories>
-      <Files>
-        <File Name="TestApp.exe" Hash="2778240F63A1C3D65F54DCE91A2B6FCABF813F62FE79EF440612E2D45FD94066" />
-      </Files>
-    </DirectoryEntry>
+      <FileEntry Name="TestApp.exe" Hash="989CF74EB9A5C874517669E7BC3FB44454D095A91ACD48EC235DCB31B1CAD424" />
+    </Directory>
   </Folders>
+  <Registry>
+    <Directory Name="HKEY_CLASSES_ROOT">
+      <Directories>
+		<Directory Name=".0001">
+			<Directories>
+				<Directory Name="subtestupdatelib">
+				  <Directories />
+				  <RegistryKeyEntry Name="ExistingKey" Type="String"> 
+					<Value xsi:type="xsd:string">Test</Value>
+				  </RegistryKeyEntry>
+				  <RegistryKeyEntry Name="NeedsUpdate" Type="String">
+					<Value xsi:type="xsd:string">y</Value>
+				  </RegistryKeyEntry>		  
+				  <RegistryKeyEntry Name="NewKey" Type="String" >
+					<Value xsi:type="xsd:string">new</Value>
+				  </RegistryKeyEntry>
+				</Directory>
+			</Directories>
+		</Directory>
+      </Directories>
+    </Directory>
+  </Registry>
 </UpdateFile>
