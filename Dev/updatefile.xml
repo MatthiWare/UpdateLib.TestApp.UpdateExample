@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<UpdateFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ApplicationName="TestApp" VersionString="0.4.1">
+<UpdateFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ApplicationName="TestApp" VersionString="0.4.4">
   <Folders>
     <Directory Name="%appdir%">
       <Directories>
@@ -10,7 +10,8 @@
           <FileEntry Name="testfile3.txt" Hash="96F15B45E9CEAB9DF17DF2DAC1FC936E338C593ECFFF478E5763ABE8C731CA95" />
         </Directory>
       </Directories>
-      <FileEntry Name="TestApp.exe" Hash="8251BC8CCEBE6A8F606F9F4081A662934A4F2F00ECD6A16B6AEEE1D00FC40DC6" />
+      <FileEntry Name="TestApp.exe" Hash="FEAB0CC5E77A8F39CA25726EA5E62A728F7D98A83479E33B65B44A8DD70F89F4" />
+	  <FileEntry Name="UpdateLib.dll" Hash="99C5814A0679B411A1326BF6965D4CAB368B121A1FCF9D6C835471D133F8C271" />
     </Directory>
   </Folders>
   <Registry>
